@@ -1,0 +1,51 @@
+.table-status-error {
+    background-color: #f2263542;
+}
+.table-status-warning {
+    background-color: #f8ac3042;
+}
+.table-status-inactive {
+    background-color: #a6a6a642;
+}
+.table-status-active {
+    background-color: #e6f7ff42;
+}
+.table-status-info {
+    background-color: #2593fc42;
+}
+.table-status-success {
+    background-color: #57c22d42;
+}
+
+.table-cell__sorted .caret.on {
+    color: #1890ff;
+}
+.table-cell__sorted div {
+    position: relative;
+}
+.table-cell__sorted:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.table-filter-dropdown {
+    padding: 8px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    min-width: 320px;
+}
+
+.table-filter-dropdown input {
+    width: 130px;
+    margin-right: 8px;
+}
+
+.table-filter-dropdown button {
+    margin-right: 8px;
+}
+
+th.column-money,
+td.column-money {
+    text-align: right !important;
+}

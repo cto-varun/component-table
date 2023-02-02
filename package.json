@@ -1,0 +1,33 @@
+{
+    "name": "@ivoyant/component-table",
+    "version": "1.0.23",
+    "main": "dist/index.js",
+    "title": "Table",
+    "description": "",
+    "icon": "icon.png",
+    "private": true,
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist st",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "Maxim Kotelnikov <mail@maximkotelnikov.me>",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ant-design/compatible": "^5.1.1",
+        "dayjs": "^1.7.7",
+        "lodash.groupby": "^4.6.0",
+        "react-number-format": "^5.1.3"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2"
+    }
+}
